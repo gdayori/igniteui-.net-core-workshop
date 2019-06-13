@@ -1,0 +1,58 @@
+﻿@model IEnumerable<NorthwindView.Models.OrderInfo>
+
+<h2>Order list</h2>
+
+<div class="mx-2">
+    <div id="grid">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Order ID
+                    </th>
+                    <th>
+                        Company Name
+                    </th>
+                    <th>
+                        Employee Name
+                    </th>
+                    <th>
+                        Order Date
+                    </th>
+                    <th>
+                        Country
+                    </th>
+                    <th>
+                        Sales Amount
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CompanyName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EmployeeName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ShipCountry)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SalesAmount)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
