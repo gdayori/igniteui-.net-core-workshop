@@ -67,6 +67,12 @@ Views\\Home\\Index.cshtml
 ...
 ```
 
+## Check the result
+
+Run the app and check the result.
+
+![](../assets/04-01-01.png)
+
 ## Note
 
 igGrid has many features other than the ones used here, but some features can't be enabled at the same time. Check the feature compatibility matrix from the below link to see which ones can be enabled togather.

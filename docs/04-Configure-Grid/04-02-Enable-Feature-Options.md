@@ -95,6 +95,12 @@ Views\\Home\\Index.cshtml
 
 *If you want to display the grand total SalesAmount the you should use Summaries feature.
 
+## Check the result
+
+Run the app and check the result.
+
+![](../assets/04-02-01.png)
+
 ## Note
 
 [Filtering options](https://jp.igniteui.com/help/api/2019.1/ui.iggridfiltering#options)

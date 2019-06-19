@@ -25,14 +25,19 @@ In this workshop, you migrate this application from old fashion UI to rich & mod
 Before:
 ![](docs/assets/00-00-00.png)
 
+The application simply displays Sales(Order) data which comes from the Northwind sample DB  via Entity framework
+
 After:
-![](docs/assets/00-00-00.png)
+![](docs/assets/00-00-01.png)
 
+After the migration with Ignite UI, the grid UI has many features like sorting, filtering, grouping, summarizing, column moving and hiding which help end-users to be more productive. Also, it has a capability to export data as an Excel file.
 
-Note that there's After folder which contains the expected project when you completed all instructions, Section 1 to Section 3.
+## Note
+
+In src/02-After folder, you can check the completed project when you completed all instructions in this workshop.
 
 ## All steps
-
+<!-- 
 1. [Section 1 - Get started with Infragistics grid control](docs/01-Use-Infragistics-Grid-control/01-00-Overview-of-Section1.md)
     1. [Get started with XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-01-Get-started-with-XamDataGrid.md)
     2. [Configure XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-02-Configure-XamDataGrid.md)
@@ -45,14 +50,4 @@ Note that there's After folder which contains the expected project when you comp
     6. [Configure CategoryChart](docs/02-Create-dashboard-with-Control-Configulator/02-06-Configure-CategoryChart.md)
 3. [Section 3 - Create Self-BI UI with Pivot controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-00-Overview-of-Section3.md)
     1. [Use FlatDataSource](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-01-Use-FlatDataSource.md)
-    2. [Use Pivot Controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-02-Use-Pivot-Controls.md)
-
-## What you create through this workshop.
-Section 1 - Get started with Infragistics grid control
-![](docs/assets/01-02-01.png)
-
-Section 2 - Create a dashboard with-Control Configulator
-![](docs/assets/02-06-07.png)
-
-Section 3 - Create Self-BI UI with Pivot controls
-![](docs/assets/03-02-01.png)
+    2. [Use Pivot Controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-02-Use-Pivot-Controls.md) -->

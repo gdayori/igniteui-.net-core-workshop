@@ -19,11 +19,21 @@ wwwroot\\css\\site.css
 /* ↑↑↑ Added ↑↑↑ */
 ```
 
+## Check the result
+
+Run the app and check the result. If nothing changed, try clear the browser cache by hitting ctrl + F5.
+
+![](../assets/05-01-01.png)
+
 ## Note
 
-igGrid has many features other than the ones used here, but some features can't be enabled at the same time. Check the feature compatibility matrix from the below link to see which ones can be enabled togather.
+igGrid has many styles you can change. You can learn those styles in the default theme from below link. 
 
-[igGrid feature compatibility matrix](https://www.igniteui.com/help/feature-compatibility-matrix(iggrid))
+[igGrid styling theme](https://jp.igniteui.com/help/api/2019.1/ui.igGrid#theming)
+
+But the shortest path to find which class you should override to change styles is to use the inspector of browser.
+
+![](../assets/05-01-02.png)
 
 ## Next
 [03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)

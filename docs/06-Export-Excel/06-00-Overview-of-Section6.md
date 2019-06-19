@@ -1,6 +1,6 @@
-#  Section 4
+#  Section 6
 
-In this section, you do a samll css work for styling igGrid.
+In this section, you add a capability to export grid data as an Excel file. 
 
 ## Steps
 1. [Use FlatDataSource](03-01-Use-FlatDataSource.md)
