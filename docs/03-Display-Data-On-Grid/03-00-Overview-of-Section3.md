@@ -10,7 +10,7 @@ In this section, you use Ignite UI for Javascript controls to make the UI rich a
 
 ## What you build in this section
 
-![](../assets/03-02-01.png)
+![](../assets/03-04-01.png)
 
 ## Next
 [03-01 Get started with IgniteUI](03-01-Get-Started-With-IgniteUI.md)

@@ -8,7 +8,7 @@ In this section, you configure igGrid controls to make the grid more robust.
 
 ## What you build in this section
 
-![](../assets/03-02-01.png)
+![](../assets/04-02-01.png)
 
 ## Next
 [04-01 Enable Grid Features](04-01-Enable-Grid-Features.md)

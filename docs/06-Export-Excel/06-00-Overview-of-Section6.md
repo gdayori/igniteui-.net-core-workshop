@@ -9,7 +9,7 @@ In this section, you add a capability to export grid data as an Excel file.
 
 ## What you build in this section
 
-![](../assets/03-02-01.png)
+![](../assets/06-03-01.png)
 
 ## Next
 [06-01 Add-Resources](06-01-Add-Resources.md)
