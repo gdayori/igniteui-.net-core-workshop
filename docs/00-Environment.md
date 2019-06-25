@@ -10,4 +10,4 @@ Prerequisite for the workshop
 All datasource is in the project you downloaded for this workshop. No need to prepare of local db / web service.
 
 ## Next
-[Section 1 - Understand NorthwindView project](01-00-Understand-NorthwindView-Project.md)
+[Section 1 - Understand NorthwindView project](01-Understand-the-current-project/01-00-Understand-NorthwindView-Project.md)
