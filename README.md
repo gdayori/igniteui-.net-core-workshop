@@ -39,17 +39,24 @@ After the migration with Ignite UI, the grid UI has many features like sorting, 
 In src/02-After folder, you can check the project completing all instructions in this workshop.
 
 ## All steps
-<!-- 
-1. [Section 1 - Get started with Infragistics grid control](docs/01-Use-Infragistics-Grid-control/01-00-Overview-of-Section1.md)
-    1. [Get started with XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-01-Get-started-with-XamDataGrid.md)
-    2. [Configure XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-02-Configure-XamDataGrid.md)
-2. [Section 2 - Create a dashboard with-Control Configulator](docs/02-Create-dashboard-with-Control-Configulator/02-00-Overview-of-Section2.md)
-    1. [Install Control Configulator](docs/02-Create-dashboard-with-Control-Configulator/02-01-Install-Control-Configulator.md)
-    2. [Layout screen with XamTileManager](docs/02-Create-dashboard-with-Control-Configulator/02-02-Layout-screen-with-XamTileManager.md)
-    3. [Configure PieChart](docs/02-Create-dashboard-with-Control-Configulator/02-03-Configure-PieChart.md)
-    4. [Configure BulletGraph](docs/02-Create-dashboard-with-Control-Configulator/02-04-Configure-BulletGraph.md)
-    5. [Configure Grid](docs/02-Create-dashboard-with-Control-Configulator/02-05-Configure-Grid.md)
-    6. [Configure CategoryChart](docs/02-Create-dashboard-with-Control-Configulator/02-06-Configure-CategoryChart.md)
-3. [Section 3 - Create Self-BI UI with Pivot controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-00-Overview-of-Section3.md)
-    1. [Use FlatDataSource](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-01-Use-FlatDataSource.md)
-    2. [Use Pivot Controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-02-Use-Pivot-Controls.md) -->
+
+1. [Section 1 - Understand NorthwindView project](docs/01-Understand-the-current-project/01-00-Understand-NorthwindView-Project.md)
+2. [Section 2 - Create API returning JSON data](docs/02-Create-API-returning-JSON/02-00-Overview-of-Section2.md)
+    1. [Search conditions on the view.md](docs/02-Create-API-returning-JSON/02-01-Search-conditions-on-the-view.md)
+    2. [Create API](docs/02-Create-API-returning-JSON/02-02-Create-API.md)
+    3. [Get data from API](docs/02-Create-API-returning-JSON/02-03-Get-data-from-API.md)
+3. [Section 3 - Display data on Grid](docs/03-Display-data-on-Grid/03-00-Overview-of-Section3.md)
+    1. [Get started with IgniteUI](docs/03-Display-data-on-Grid/03-01-Get-started-with-IgniteUI.md)
+    2. [Use DatePicker](docs/03-Display-data-on-Grid/03-02-Use-DatePicker.md)
+    3. [Use Grid](docs/03-Display-data-on-Grid/03-03-Use-Grid.md)
+    4. [Set Grid options](docs/03-Display-data-on-Grid/03-04-Set-Grid-options.md)
+4. [Section 4 - Configure Grid](docs/04-Configure-Grid/04-00-Overview-of-Section4.md)
+    1. [Enable Grid Features](docs/04-Configure-Grid/04-01-Enable-Grid-Features.md)
+    2. [Set Feature Options](docs/04-Configure-Grid/04-02-Set-Feature-Options.md)
+5. [Section 5 - Style Grid](docs/05-Style-Grid/05-00-Overview-of-Section5.md)
+    1. [Override-default-theme](docs/05-Style-Grid/05-01-Override-default-theme.md)
+    2. [Conditional Styling](docs/05-Style-Grid/05-02-Conditional-Styling.md)
+6. [Section 6 - Export Excel](docs/06-Export-Excel/06-00-Overview-of-Section6.md)
+    1. [Add Resources](docs/06-Export-Excel/06-01-Add-Resources.md)
+    2. [Export as Excel](docs/06-Export-Excel/06-02-Export-As-Excel.md)
+    3. [Change Excel format](docs/06-Export-Excel/06-03-Change-Excel-Format.md)
