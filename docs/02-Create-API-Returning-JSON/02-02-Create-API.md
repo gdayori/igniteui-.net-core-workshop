@@ -68,4 +68,4 @@ public IActionResult Index()
 Now you have API returning JSON Order data filtered by searched Order Dates.
 
 ## Next
-[02-03 Configure PieChart](02-03-Configure-PieChart.md)
+[02-03 Get data from API](02-03-Get-data-from-API.md)

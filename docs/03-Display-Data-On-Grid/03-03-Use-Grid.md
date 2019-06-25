@@ -35,3 +35,6 @@ If you want to know more about igGrid check the following help topic.
 [Sample for igGrid](https://jp.igniteui.com/grid/overview)
 
 [API Reference for igGrid](https://www.igniteui.com/help/api/2019.1/ui.igdatepicker)
+
+## Next
+[03-04 Set Grid options](03-04-Set-Grid-options.md)

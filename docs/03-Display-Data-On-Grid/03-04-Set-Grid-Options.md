@@ -51,3 +51,6 @@ Run the app and check the result.
 If you want to know more about igGrid options check the following help topic.
 
 [API Reference for igGrid options](https://www.igniteui.com/help/api/2019.1/ui.igdatepicker#options)
+
+## Next
+[04-00 Overview of Section4](../04-Configure-Grid/04-00-Overview-of-Section4.md)

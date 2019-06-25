@@ -80,4 +80,4 @@ igGrid has many features other than the ones used here, but some features can't 
 [igGrid feature compatibility matrix](https://www.igniteui.com/help/feature-compatibility-matrix(iggrid))
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[04-02 Set Feature Options](04-02-Set-Feature-Options.md)

@@ -1,4 +1,4 @@
-# Get data from API
+d# Get data from API
 
 Request Order data with parameters and check JSON result.
 
@@ -45,4 +45,4 @@ Run the app to check the result. If everything is working fine, you can search o
 ![](../assets/02-03-01.png)
 
 ## Next
-[02-04 Configure BulletGraph](02-04-Configure-BulletGraph.md)
+[03-00 Overview of Section3](../03-Display-data-on-Grid/03-00-Overview-of-Section3.md)

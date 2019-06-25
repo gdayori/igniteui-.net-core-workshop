@@ -1,4 +1,4 @@
-# Export as an Excel
+# Export as Excel
 
 Adding a capability to allow users to export a grid as an Excel file.
 
@@ -61,4 +61,4 @@ Run the app and check the result.
 [Online sample - Excel exporting](https://www.igniteui.com/grid/export-feature-rich-grid)
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[06-03 Change Excel format](06-03-Change-Excel-Format.md)

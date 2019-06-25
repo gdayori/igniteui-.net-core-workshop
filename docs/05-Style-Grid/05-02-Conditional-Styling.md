@@ -95,4 +95,4 @@ Run the app and check the result.
 
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[06-00 Overview of Section6](../06-Export-Excel/06-00-Overview-of-Section6.md)

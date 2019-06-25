@@ -5,7 +5,7 @@ Before writing code, let's check what's in the project to be migrated with Ignit
 
 ## Download the project
 
-Download ZIP from #mod
+Download the copy of this repository and find infragistics-.net-core-workshop/src/before/NorthwindView project which would be the start point of this workshop.
 
 Open the solution named "NorthwindView.sln" in "before" folder you downloaded, which is in igniteui-.net-core-workshop/src/before.
 
@@ -19,7 +19,7 @@ The application simply displays the order information from Northwind Database.
 
 The table view styled by Bootstrap looks nice, but you can't do sorting, filtering, grouping and summarizing on this table view.
 
-## What's in the project
+## See what's in the project
 
 This project is based on the template project created by visual studio. You can see similar directory structure in the project if you create a new "ASP.NET Core Web Application" project with "Web Application (Model-View-Controller)" template.
 
@@ -134,7 +134,5 @@ This is a typical way of making UI on MVC type application. But the view has so 
 
 Okay, let's make this app more rich and high performance from the next section.
 
-## Note
-
 ## Next
-[01-02 Configure XamDataGrid](01-02-Configure-XamDataGrid.md)
+[01-02 Overview of Section2](../02-Create-API-returning-JSON/02-00-Overview-of-Section2.md)

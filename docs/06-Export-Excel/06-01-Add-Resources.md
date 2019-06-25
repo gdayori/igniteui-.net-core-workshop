@@ -23,4 +23,4 @@ Views\\Shared\\_Layout.cshtml.
 FileSaver.js and Blob.js are OSS libraries which are not included in Ignite UI. You use that libraries to save Excel files created by Infragistics Excel Engine on the client(browser).
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[06-02 Export as Excel](06-02-Export-As-Excel.md)

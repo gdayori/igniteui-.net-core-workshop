@@ -34,3 +34,6 @@ If you want to know more about igDatePicker check the following help topic.
 [Sample for igDatePicker](https://www.igniteui.com/editors/date-picker-overview)
 
 [API Reference for igDatePicker](https://www.igniteui.com/help/api/2019.1/ui.igdatepicker)
+
+## Next
+[Use Grid](03-03-Use-Grid.md)

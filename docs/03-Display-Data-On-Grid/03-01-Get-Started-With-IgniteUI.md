@@ -44,4 +44,4 @@ If you really care the loaded file size you can load minimum files requred to th
 [Adding Required Resources Automatically with the Infragistics Loader](https://www.igniteui.com/help/using-infragistics-loader)
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[03-02 Use DatePicker](03-02-Use-DatePicker.md)

@@ -1,10 +1,10 @@
-# Enable Grid feature options
+# Set Grid feature options
 
-Each grid feature has own many options to adapt to a variety of use cases.
+Each grid feature has own many options to adapt to a variety of use cases. Set grid feature options to configuire grid.
 
-## Change filtering UI
+## Change filtering UI to simple one.
 
-Change filtering UI from dialog based UI to simple one.
+The default filtering UI is a dialog-based UI that end-users can set complex filtering conditions. Change filtering UI from the dialog-based UI to the simple one.
 
 Views\\Home\\Index.cshtml
 
@@ -113,4 +113,4 @@ Run the app and check the result.
 
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[05-00 Overview of Section6](../05-Style-Grid/05-00-Overview-of-Section6.md)

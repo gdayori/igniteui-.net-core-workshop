@@ -3,12 +3,13 @@
 In this section, you add a capability to export grid data as an Excel file. 
 
 ## Steps
-1. [Use FlatDataSource](03-01-Use-FlatDataSource.md)
-2. [Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+1. [Add Resources](06-01-Add-Resources.md)
+2. [Export as Excel](06-02-Export-As-Excel.md)
+3. [Change Excel format](06-03-Change-Excel-Format.md)
 
 ## What you build in this section
 
 ![](../assets/03-02-01.png)
 
 ## Next
-[03-01 Use FlatDataSource](03-01-Use-FlatDataSource.md)
+[06-01 Add-Resources](06-01-Add-Resources.md)
