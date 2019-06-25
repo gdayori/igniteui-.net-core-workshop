@@ -45,4 +45,4 @@ Run the app to check the result. If everything is working fine, you can search o
 ![](../assets/02-03-01.png)
 
 ## Next
-[03-00 Overview of Section3](../03-Display-data-on-Grid/03-00-Overview-of-Section3.md)
+[03-00 Overview of Section3](../03-Display-Data-On-Grid/03-00-Overview-of-Section3.md)

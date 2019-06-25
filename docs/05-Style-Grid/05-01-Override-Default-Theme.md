@@ -36,4 +36,4 @@ But the shortest path to find which class you should override to change styles i
 ![](../assets/05-01-02.png)
 
 ## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
+[05-02 Conditional styling](05-02-Conditional-Styling.md)

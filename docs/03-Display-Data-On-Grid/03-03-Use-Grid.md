@@ -37,4 +37,4 @@ If you want to know more about igGrid check the following help topic.
 [API Reference for igGrid](https://www.igniteui.com/help/api/2019.1/ui.igdatepicker)
 
 ## Next
-[03-04 Set Grid options](03-04-Set-Grid-options.md)
+[03-04 Set Grid options](03-04-Set-Grid-Options.md)

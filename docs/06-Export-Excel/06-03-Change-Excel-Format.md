@@ -45,6 +45,3 @@ Run the app and check the result.
 [Online help - Infragistics Javascript Excel library](https://jp.igniteui.com/help/using-the-javascript-excel-library)
 
 [Online sample - Excel exporting](https://www.igniteui.com/grid/export-feature-rich-grid)
-
-## Next
-[03-02 Use Pivot Controls](03-02-Use-Pivot-Controls.md)
