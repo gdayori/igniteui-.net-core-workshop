@@ -1,0 +1,22 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 10px;
+}
+
+.ui-iggrid-header {
+    background-color: navy !important;
+}
+
+/* ↓↓↓ Added ↓↓↓ */
+.row-highlight{
+    background-color: lightblue !important;
+}
+
+.cell-highlight {
+    background-color: lightpink;
+}
+/* ↑↑↑ Added ↑↑↑ */

@@ -1,0 +1,142 @@
+﻿<h2>Order list</h2>
+<div class="mx-2">
+    <div id="container" class="d-flex align-items-start mb-2">
+        OrderDate:
+        <input id="orderDateFrom" type="date" />
+        ~
+        <input id="orderDateTo" type="date" />
+        <button id="btnSearch" class="btn btn-dark btn-sm mx-2">Serach</button>
+        <button id="btnExcel" class="btn btn-dark btn-sm mx-2">Excel Download</button>
+    </div>
+
+    <div id="grid"></div>
+</div>
+
+<script>
+    $(function () {
+        $("#orderDateFrom").igDatePicker({ dateInputFormat: "yyyy-MM-dd" });
+        $("#orderDateTo").igDatePicker({ dateInputFormat: "yyyy-MM-dd" });
+        $('#btnExcel').click(function (e) {
+            $.ig.GridExcelExporter.exportGrid(
+                $("#grid"), // 1st parameter is for grid instance
+                { fileName: "OrderList" }, //2dn parameter is for setting options, e.g. file name
+                {
+                    cellExported: function (sender, args) {
+                        // If the salesAmount is greater than 3000 then set lightpink to the background of the cell.
+                        if (args.columnKey == "salesAmount" && args.cellValue > 3000) {
+                            var fillColor = $.ig.excel.CellFill.createSolidFill("#FFB6C1");
+                            args.xlRow.cells(args.columnIndex).cellFormat().fill(fillColor);
+                        }
+                    }
+                }
+            );
+        });
+        $('#btnSearch').click(function (e) {
+            $.ajax({
+                url: 'Home/GetOrders',
+                type: 'GET',
+                dataType: 'json',
+                data: {
+                    pOrderDateFrom: $('#orderDateFrom').val(),
+                    pOrderDateTo: $('#orderDateTo').val()
+                }
+            }).done(function (data) {
+                $('#grid').igGrid({ dataSource: data });
+                if (data.length == 0) alert('No data');
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+                alert('failed');
+            });
+        });
+
+        $("#grid").igGrid({
+            autoGenerateColumns: false,
+            width: "100%",
+            height: "600px",
+            primaryKey: "orderId",
+            dataSource: [],
+            rowVirtualization: true,
+            virtualizationMode: "continuous",
+            columns: [
+                { headerText: "Order ID", key: "orderId", dataType: "number", width: "120px" },
+                { headerText: "Order Date", key: "orderDate", dataType: "date", width: "160px", format: "yyyy-MM-dd" },
+                { headerText: "Company", key: "companyName", dataType: "string", width: "220px" },
+                { headerText: "Sales Rep", key: "employeeName", dataType: "string", width: "160px" },
+                { headerText: "Country", key: "shipCountry", dataType: "string", width: "140px" },
+                { headerText: "Sales Amount", key: "salesAmount", dataType: "number", width: "150px", format: "currency" },
+            ],
+            rowsRendered: function (evt, ui) {
+                // Setting css classes to specific rows/cells in rowsRendered
+                var grid = ui.owner;  // Get the grid instance
+                var rows = grid.rows();  // Get rows to be rendered
+                var length = rows.length;  // Get row count
+                // Loop all rendered rows
+                for (var i = 0; i < length; i++) {
+                    var row = rows[i]; //rendering row
+                    var rowID = row.getAttribute("data-id");
+                    // If the row is grouped row or summary row, then skip the row.
+                    if (row.className.includes("groupedrow") || row.className.includes("summaryrow")) continue;
+                    // Get cell values and check if it should be styled.
+                    var country = grid.getCellValue(rowID, "shipCountry");
+                    var salesAmount = grid.getCellValue(rowID, "salesAmount");
+                    var salesAmountCell = grid.cellById(rowID, "salesAmount")[0];
+                    if (country == "Brazil") {
+                        // Styling row
+                        $(row).addClass("row-highlight");
+                    }
+                    if (salesAmount > 3000) {
+                        // Styling cell
+                        $(salesAmountCell).addClass("cell-highlight");
+                    }
+                }
+            },
+            features: [
+                {
+                    name: "Sorting",
+                },
+                {
+                    name: "Filtering",
+                    mode: "simple"
+                },
+                {
+                    name: "Selection",
+                    mode: 'row',
+                    multipleSelection: true
+                },
+                {
+                    name: "RowSelectors",
+                    enableCheckBoxes: true,
+                    enableRowNumbering: true,
+                },
+                {
+                    name: "Hiding",
+                    columnSettings: [
+                        { columnKey: "orderId", allowHiding: false },
+                        { columnKey: "orderDate", allowHiding: false },
+                    ]
+                },
+                {
+                    name: "Resizing",
+                },
+                {
+                    name: "ColumnMoving",
+                },
+                {
+                    name: "GroupBy",
+                    columnSettings: [
+                        {
+                            columnKey: "salesAmount",
+                            groupSummaries: [
+                                {
+                                    summaryFunction: "Sum", label: "Sum = ", format: "#,###"
+                                },
+                                {
+                                    summaryFunction: "Avg", label: "Avg = ", format: "#,###"
+                                }
+                            ],
+                        }
+                    ],
+                },
+            ]
+        });
+    });
+</script>

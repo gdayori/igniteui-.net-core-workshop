@@ -34,7 +34,7 @@ After the migration with Ignite UI, the grid UI has many features like sorting, 
 
 ## Note
 
-In src/02-After folder, you can check the completed project when you completed all instructions in this workshop.
+In src/02-After folder, you can check the project completing all instructions in this workshop.
 
 ## All steps
 <!-- 
