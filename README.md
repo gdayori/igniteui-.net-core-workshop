@@ -41,10 +41,10 @@ In src/02-After folder, you can check the project completing all instructions in
 ## All steps
 
 1. [Section 1 - Understand NorthwindView project](docs/01-Understand-the-current-project/01-00-Understand-NorthwindView-Project.md)
-2. [Section 2 - Create API returning JSON data](docs/02-Create-API-returning-JSON/02-00-Overview-of-Section2.md)
-    1. [Search conditions on the view.md](docs/02-Create-API-returning-JSON/02-01-Search-conditions-on-the-view.md)
-    2. [Create API](docs/02-Create-API-returning-JSON/02-02-Create-API.md)
-    3. [Get data from API](docs/02-Create-API-returning-JSON/02-03-Get-data-from-API.md)
+2. [Section 2 - Create API returning JSON data](docs/02-Create-API-Returning-JSON/02-00-Overview-of-Section2.md)
+    1. [Search conditions on the view.md](docs/02-Create-API-Returning-JSON/02-01-Search-conditions-on-the-view.md)
+    2. [Create API](docs/02-Create-API-Returning-JSON/02-02-Create-API.md)
+    3. [Get data from API](docs/02-Create-API-Returning-JSON/02-03-Get-data-from-API.md)
 3. [Section 3 - Display data on Grid](docs/03-Display-data-on-Grid/03-00-Overview-of-Section3.md)
     1. [Get started with IgniteUI](docs/03-Display-data-on-Grid/03-01-Get-started-with-IgniteUI.md)
     2. [Use DatePicker](docs/03-Display-data-on-Grid/03-02-Use-DatePicker.md)
