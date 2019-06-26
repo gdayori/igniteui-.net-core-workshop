@@ -1,4 +1,4 @@
-# Understanding the current project before the migration
+# Section 1 Understanding the current project before the migration
 
 Before writing code, let's check what's in the project to be migrated with Ignite UI for Javascript.
 

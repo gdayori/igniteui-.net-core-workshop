@@ -1,4 +1,4 @@
-#  Section 5
+#  Section 5 Style Grid
 
 In this section, you do a css work here for styling igGrid.
 

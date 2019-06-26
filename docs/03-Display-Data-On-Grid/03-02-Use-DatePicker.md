@@ -1,4 +1,4 @@
-# Use DataGrid
+# Use DatePicker
 
 Use igDatePicker control to make search conditions more easy to input.
 

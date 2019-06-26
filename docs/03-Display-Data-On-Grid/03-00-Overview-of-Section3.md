@@ -1,4 +1,4 @@
-#  Section 3
+#  Section 3 Display data on Grid
 
 In this section, you use Ignite UI for Javascript controls to make the UI rich and robust. 
 

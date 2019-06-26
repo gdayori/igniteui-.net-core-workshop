@@ -1,4 +1,4 @@
-#  Section 6
+#  Section 6 Export Excel
 
 In this section, you add a capability to export grid data as an Excel file. 
 

@@ -1,4 +1,4 @@
-#  Section 4
+#  Section 4 Configure Grid
 
 In this section, you configure igGrid controls to make the grid more robust. 
 

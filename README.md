@@ -46,7 +46,7 @@ In src/02-After folder, you can check the project completing all instructions in
     2. [Create API](docs/02-Create-API-Returning-JSON/02-02-Create-API.md)
     3. [Get data from API](docs/02-Create-API-Returning-JSON/02-03-Get-Data-From-API.md)
 3. [Section 3 - Display data on Grid](docs/03-Display-Data-On-Grid/03-00-Overview-of-Section3.md)
-    1. [Get started with IgniteUI](docs/03-Display-Data-On-Grid/03-01-Get-started-with-IgniteUI.md)
+    1. [Get started with IgniteUI](docs/03-Display-Data-On-Grid/03-01-Get-Started-With-IgniteUI.md)
     2. [Use DatePicker](docs/03-Display-Data-On-Grid/03-02-Use-DatePicker.md)
     3. [Use Grid](docs/03-Display-Data-On-Grid/03-03-Use-Grid.md)
     4. [Set Grid options](docs/03-Display-Data-On-Grid/03-04-Set-Grid-Options.md)
