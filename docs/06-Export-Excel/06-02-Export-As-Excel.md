@@ -38,7 +38,7 @@ $(function () {
     $('#btnExcel').click(function (e) {
         $.ig.GridExcelExporter.exportGrid(
             $("#grid"), // 1st parameter is for grid instance
-            { fileName: "OrderList" }, //2dn parameter is for setting options, e.g. file name
+            { fileName: "OrderList" }, //2nd parameter is for setting options, e.g. file name
         );
     });
     // ↑↑↑ Added ↑↑↑

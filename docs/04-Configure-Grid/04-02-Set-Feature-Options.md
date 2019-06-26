@@ -113,4 +113,4 @@ Run the app and check the result.
 
 
 ## Next
-[05-00 Overview of Section6](../05-Style-Grid/05-00-Overview-of-Section5.md)
+[05-00 Overview of Section5](../05-Style-Grid/05-00-Overview-of-Section5.md)
