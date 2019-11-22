@@ -2,7 +2,7 @@
 
 ## About this workshop
 
-This workshop is for those who want to try Infragistics product in .NET Core/Api/MVC application or who are looking for rich and modern Web UI controls, e.g. grid and chart, that can be used for web application development. 
+This workshop is for those who want to try Infragistics product in .NET Core/Api/MVC application or who are looking for rich and modern Web UI components, e.g. grid and chart, that can be used for web application development. 
 
 You can experience how to build rich web app with Ignite UI and see its productivity through this workshop.
 
